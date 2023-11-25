@@ -1,0 +1,22 @@
+# Ignore core WordPress files
+wp-admin/
+wp-includes/
+
+# Ignore WordPress configuration
+wp-config.php
+
+# Ignore generated files
+wp-content/uploads/
+wp-content/cache/
+
+# Ignore plugins and themes managed by Composer
+wp-content/plugins/
+wp-content/themes/
+
+# Ignore development files
+node_modules/
+vendor/
+
+# Ignore build and deployment files
+build/
+dist/
